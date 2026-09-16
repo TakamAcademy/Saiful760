@@ -881,3 +881,23 @@ body {
     border-bottom: 1px solid rgba(255,255,255,0.10) !important;
   }
 }
+
+
+/* =========================================================
+   HERO — শিক্ষা শুরু করুন বাটন
+   সাদা বাটনের পরিবর্তে Emerald রঙ
+   ========================================================= */
+
+.mte-hero .mte-btn-light {
+  background: #0f766e !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15) !important;
+}
+
+.mte-hero .mte-btn-light:hover {
+  background: #10b981 !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  transform: translateY(-2px) !important;
+}
